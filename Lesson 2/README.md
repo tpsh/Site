@@ -1,2 +1,2 @@
-# Lesson1
-First Lesson about HTML\CSS
+# Lesson2	
+Second Lesson. And this time about Bootstrap - CSS framework
