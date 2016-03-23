@@ -19,7 +19,7 @@ $(document).ready(function() {
         // put your options and callbacks here
     });
 
-    $('.fc-day-number').append('<div>Test</div>');
+    $('.fc-day-number').append('<div></div>');
 
     var date = new Date ;
     monthA = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
