@@ -26,54 +26,110 @@
   </head>
 
   <body>
-<div class="container">
-  <div class="row">
+<div class="main_wrapper container">
+  <div class="row background_white">
     <div class="col-md-3">
-      <div id="my_date"></div>
-    </div> 
-    <div class="col-md-4">
-    <p> #ПроПогоду</p>
+    <h2 class="h_no_margin main_head">#ПроПогоду</h2>
+    <h5 class="second_head">Прогноз погоды для <a href="http://okean.org/">ВДЦ "ОКЕАН"</a></h5>
     </div>
-    <div class="col-md-4">
-    <p> Включить смс оповещения о погоде.</p>
-     <div class="input-group">
-      <span class="input-group-addon" id="sizing-addon2">Номер телефона</span>
-     <input type="text" class="form-control" placeholder="+ 7 (914) 234-76-64 " aria-describedby="sizing-addon2"> 
-        <div class="btn-group btn-group-justified" role="group" aria-label="...">
-        <div class="btn-group" role="group">
-        <button type="button" class="btn btn-default">Подключить</button> 
-        </div>
-        </div>
+      <div class="col-md-6">
+      <table  class="navbar">
+        <tr>
+            <td>
+              Прогноз погоды
+            </td>
+            <td>
+            <a href="">Графики погоды</a>
+            </td>
+            <td>
+            <a href="">Детская игра про погоду</a>
+            </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="">на неделю</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="">на месяц</a>
+          </td>
+        </tr> 
+      </table>
+    </div>
+    <div class="col-md-3">
 
-        <div class="input-group">
-       <span class="input-group-addon">
-        <input type="checkbox" aria-label=""> 
-         Согласен с условиями
-      </span>
-      <span class="agreed"></span>
- </div>
-    </div>
+        <img src="img/Okean.png" alt="ВДЦ Океан" class="img_okean">
     <!-- /input-group -->
   </div>
 
 </div>
-<div class="container">
+<div class="container background_sea">
+<div class="wrapper_sea">
 <div class="row">
-    <div class="col-md-3">
-        <h1>+18°C</h1>
-<h3>ветер 5м/с</h3>
-<h3>влажность 56%</h3>
-<h3>давление 760мм рт.ст.</h3>
+    <div class="col-md-4">
+      <div class ="main_widget">
+        <h5 class="inline">Сегодня&nbsp;<span id="my_date"></span></h5>
+<h1>+7&nbsp;<img src="img/weather/big_cloud.png" alt="cloud" class="big_icon"></h1>
+<p>Скорость ветра <span>2 м/с </span></p>
+<p>влажность <span>56%</span></p>
+<p>давление <span>760мм рт.ст.</span></p>
+<p>освященность <span>99%</span></p>
+      </div>
          </div>
          <div class="col-md-4">
-         <img src="img/weather.jpg"><p>Наденьте головной убор</p>
+          <div class="block_weather light_blue">
+            <table class="table main_weather">
+              <tr>
+              <td></td>
+              <td></td>
+              <td>&deg;C</td>
+              <td class="table_wind">м/c</td>
+              </tr>
+
+              <tr>
+              <td>Ночь</td>
+              <td><img class="weather_icon" src="img/weather/cloud.png" alt="cloud"></td>
+              <td>+7</td>
+              <td class="table_wind">5</td>
+              </tr>
+
+              <tr>
+              <td>Утро</td>
+              <td><img class="weather_icon" src="img/weather/cloud.png" alt="cloud"></td>
+              <td>+11</td>
+              <td class="table_wind">7</td>
+              </tr>
+
+              <tr>
+              <td>День</td>
+              <td><img class="weather_icon" src="img/weather/cloud.png" alt="cloud"></td>
+              <td>+16</td>
+              <td class="table_wind">8</td>
+              </tr>
+
+              <tr>
+              <td>Вечер</td>
+              <td><img class="weather_icon" src="img/weather/cloud.png" alt="cloud"></td>
+              <td>+14</td>
+              <td class="table_wind">7</td>
+              </tr>              
+            </table>
+          </div>
+          <div class="light_blue block_advice">
+            <h4 class="text_advice">Совет дня</h4>
+            <p class="text_advice">Рекомендуем надеть  головной убор (шляпу, шапка) </p>
+          </div>
      </div>
-     <div class="col-md-4">
-        <h1>Если в этот день тепло,   
-то и весна будет теплой.</h1>
+     <div class="col-md-2 light_blue block_signs">
+        <h4 class="header_signs">Народная примета на сегодня</h4>
+        <p class="text_signs">Если в этот день тепло,   
+то и весна будет теплой.</p>
     </div>
 </div>
-<div class="cal_wrap"><div id="calendar_day"></div></div>
+</div>
+</div>
+<div class="cal_wrap"><div id="calendar_day"></div></div> <!--- JS-script to create calendar -->
 
 <div class="row">
     <div class = "col-md-offset-8">
@@ -87,6 +143,7 @@
     <div class="col-md-3 col-md-offset-2 game">
         <h1>Ссылка и картинка на графики погоды</h1>
     </div>
+</div>
 </div>
 
 
@@ -102,4 +159,6 @@
     <script type="text/javascript" src="js/script.js"> </script>
 
 
-</body></html>
+</body>
+
+</html>
