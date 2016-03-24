@@ -8,7 +8,8 @@ $(document).ready(function() {
             left: "",
             center: "title",
             right: ""
-        }
+        },
+        fixedWeekCount: false
     });
 
     $('#calendar_day').fullCalendar({
