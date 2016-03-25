@@ -29,8 +29,8 @@ var date = new Date ;
     });
 
     $('.fc-day').append('<div class= "cal_icon"><img src="img/weather/cloud.png" alt="cloud"></div>');
-    $('.fc-day').append('<div class = "cal_temp"><h1>+40 &deg;C</h1></div>');
-    $('.fc-day').append('<div class = "cal_wind"><p>Скорость ветра 5 м/c</div>');
+    $('.fc-day').append('<div class = "cal_temp"><h2>+40 &deg;C</h2></div>');
+    $('.fc-day').append('<div class = "cal_wind"><p>Скорость ветра: 5 м/c</div>');
 
 
 }); 

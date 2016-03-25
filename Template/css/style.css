@@ -10,6 +10,11 @@ a{
 	text-decoration: underline;
 }
 
+iframe {
+	position: absolute;
+	left: 0px
+}
+
 body {
   padding-top: 50px;
 }
@@ -30,7 +35,7 @@ margin-top: 50px
 }
 
 div.game{
-	height: 380px;
+	height: 402px;
 	padding: 0px 25px 0px 0px;
 	margin: 0px;
 }
@@ -61,7 +66,7 @@ div.link_grap{
 	background-image: url("../img/grap.png");
 	padding: 0px;
 	margin: 0px;
-	height: 380px;
+	height: 402px;
 }
 
 div.link_grap h1{
@@ -299,7 +304,11 @@ div.copyright p{
 		border-color: transparent;
 }
 
-td.fc-day {
+th.fc-day {
+	text-align: left;
+}
+
+td.fc-day{
 	border-right: 1px solid black;
 }
 
@@ -307,9 +316,25 @@ td.fc-day {
 border-style: solid
 }
 
+.fc th{
+	text-align: left;
+	padding-left: 15px;
+}
+
 th.fc-sat, th.fc-sun{
 	color: #f10000;
 }
 
 div.cal_icon {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+div.cal_temp{
+	padding-left: 10px;
+	
+}
+
+div.cal_wind{
+	padding-left: 10px;
 }
