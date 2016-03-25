@@ -6,6 +6,10 @@ p.inline {
 	display: inline-block;
 }
 
+a{
+	text-decoration: underline;
+}
+
 body {
   padding-top: 50px;
 }
@@ -19,22 +23,58 @@ img {
 	width: 100%;
 	height: auto;
 	}
+
 div.my_tb{
 margin-top: 50px
 
 }
 
 div.game{
-	border: 1px solid black;
+	height: 380px;
+	padding: 0px 25px 0px 0px;
+	margin: 0px;
 }
-div.game{
-	border: 1px solid black;
 
+div.game h1 {
+	margin: 0px;
+	padding: 0px;
 }
+
+div.link_grap p {
+  text-align: left;
+  display: block;
+  position: absolute;
+  margin: 50% 0% 0% 13%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+div.link_grap{
+	border-radius: 15px;
+	background-image: url("../img/grap.png");
+	padding: 0px;
+	margin: 0px;
+	height: 380px;
+}
+
+div.link_grap h1{
+	margin: 0px;
+}
+
+div.link_grap_wrapper{
+	margin: 0px;
+}
+
 div.my-footer {
 	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 25px;
 }
 
 h2.h_no_margin {
@@ -95,7 +135,7 @@ h4.header_signs {
 }
 
 p.text_signs {
-	font-size: 24px;
+	font-size: 16px;
 	color: rgb(0, 0, 0);
 	line-height: 1.2;
 }
@@ -241,6 +281,7 @@ div.full_view a {
 	display: inline-block;
 	margin-top: 13px;
 }	
+
 
 
 /* Calendar style */
