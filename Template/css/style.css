@@ -137,6 +137,7 @@ h4.header_signs {
   	text-transform: uppercase;
   	line-height: 1.2;
   	margin-top: 20px;
+  	letter-spacing: 0.5px;
 }
 
 p.text_signs {
@@ -159,6 +160,7 @@ h4.text_advice {
 	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 1.2;
+	letter-spacing: 0.5px;
 }
 
 p.text_advice{
@@ -171,7 +173,6 @@ p.text_advice{
 
 
 table.main_weather {
-  margin-left: 15px;
   font-size: 19px;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -337,4 +338,26 @@ div.cal_temp{
 
 div.cal_wind{
 	padding-left: 10px;
+}
+
+div.dropdown_wrapper {
+	position: absolute;
+	left: 65%;	
+	top: 5%;
+}
+
+div.dropdown_wrapper h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+
+
+
+select {
+	text-align: left;
+	width: 200px;
+	height: 25px;
 }

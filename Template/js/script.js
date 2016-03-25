@@ -33,4 +33,18 @@ var date = new Date ;
     $('.fc-day').append('<div class = "cal_wind"><p>Скорость ветра: 5 м/c</div>');
 
 
+    $('.group').hide();
+    $('#option1').show();
+    $('#selectMe').change(function () {
+    $('.group').hide();
+    $('#'+$(this).val()).show();
+  });
+
+
+
+   $(document).on('click', 'a[href^=#]', function () {
+        $('html, body').animate({ scrollTop:  $('a[name="'+this.hash.slice(1)+'"]').offset().top }, 1000 ); 
+        return false;
+    });
+
 }); 
