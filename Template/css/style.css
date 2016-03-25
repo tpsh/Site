@@ -1,4 +1,4 @@
-#my_date {
+	#my_date {
 	display: inline-block;
 }
 
@@ -74,7 +74,7 @@ div.link_grap_wrapper{
 
 div.my-footer {
 	text-align: center;
-	margin: 25px;
+	margin: 25px 25px 15px 25px;
 }
 
 h2.h_no_margin {
@@ -282,14 +282,31 @@ div.full_view a {
 	margin-top: 13px;
 }	
 
+div.copyright p{
+	display: block;
+	margin-left: 57px
+}
 
 
 /* Calendar style */
 .fc{
 	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #e3f2fd
 }
 
 .fc th, .fc td {
 		border-color: transparent;
+}
+
+td.fc-day {
+	border-right: 1px solid black;
+}
+
+.fc td.fc-today {
+border-style: solid
+}
+
+th.fc-sat, th.fc-sun{
+	color: #f10000;
 }
