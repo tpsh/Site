@@ -28,9 +28,9 @@ var date = new Date ;
         // put your options and callbacks here
     });
 
-    $('.fc-day').append('<div class=""><img src="img/weather/big_cloud.png" alt="cloud"></div>');
-    $('.fc-day').append('<div><h1>+40 &deg;C</h1></div>');
-    $('.fc-day').append('<div><p>Скорость ветра 5 м/c</div>');
+    $('.fc-day').append('<div class= "cal_icon"><img src="img/weather/cloud.png" alt="cloud"></div>');
+    $('.fc-day').append('<div class = "cal_temp"><h1>+40 &deg;C</h1></div>');
+    $('.fc-day').append('<div class = "cal_wind"><p>Скорость ветра 5 м/c</div>');
 
 
 }); 
