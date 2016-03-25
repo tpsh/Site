@@ -18,25 +18,31 @@
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/fullcalendar.css">
 
+    <link href="css/style.css" rel="stylesheet">
+
     <script src="js/ie-emulation-modes-warning.js"></script>
-  </head>
+  </hea
 
   <body>
-<div class="main_wrapper container">
-  <div class="row background_white">
+<div class="main_wrapper container"> <!-- Header -->
+  <div class="row background_white"> 
+    <div class="col-md-3">
+    <a href="http://okean.org/"><img src="img/Okean.png" alt="ВДЦ Океан" class="img_okean"></a>
+  </div>
     <div class="col-md-3">
     <h2 class="h_no_margin main_head">#ПроПогоду</h2>
     <h5 class="second_head">Прогноз погоды для <a href="http://okean.org/">ВДЦ "ОКЕАН"</a></h5>
     </div>
       <div class="col-md-6">
-      <table  class="navbar">
+      <table  class="navbar"> <!-- Navigation bar -->
         <tr>
             <td>
+              <span>
               Прогноз погоды
+             </span>
             </td>
             <td>
             <a href="">Графики погоды</a>
@@ -56,17 +62,11 @@
           </td>
         </tr> 
       </table>
-    </div>
-    <div class="col-md-3">
-
-        <img src="img/Okean.png" alt="ВДЦ Океан" class="img_okean">
-    <!-- /input-group -->
-  </div>
-
+    </div>  
 </div>
-<div class="container background_sea">
+<div class="container   background_sea"> <!--Main container-->
 <div class="wrapper_sea">
-<div class="row">
+<div class="row ">
     <div class="col-md-4">
       <div class ="main_widget">
         <h5 class="inline">Сегодня&nbsp;<span id="my_date"></span></h5>
@@ -132,8 +132,10 @@
 <div class="cal_wrap"><div id="calendar_day"></div></div> <!--- JS-script to create calendar -->
 
 <div class="row">
-    <div class = "col-md-offset-8">
-<button class="btn btn-default" type="submit">Погода на месяц</button>
+    <div class = "col-md-12">
+      <div class = "full_view">
+        <a href="">Посмотреть прогноз погоды на месяц</a>
+      </div>
 </div>
 </div>
 <div class="row my-footer">

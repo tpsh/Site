@@ -13,10 +13,12 @@ $(document).ready(function() {
     });
 
     $('#calendar_day').fullCalendar({
-            defaultView : 'basicWeek' ,
-            lang : "ru",
-            contentHeight: 150,
-            header: "false"
+        defaultView : 'basicWeek' ,
+        lang : "ru",
+        contentHeight: 150,
+        header: false,
+        dayNamesShort: ['воскресение', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
+        titleFormat: "D MMMM YYYYY"
         // put your options and callbacks here
     });
 
